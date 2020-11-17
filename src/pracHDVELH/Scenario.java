@@ -21,6 +21,11 @@ public class Scenario {
 		this.head = my_event;
 	}
 
+	public String run ()
+	{
+		return this.head.getData();
+	}
+
 	/* MAIN */
 	public static void main(String[] args) {
 		Scenario scenario;
